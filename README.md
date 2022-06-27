@@ -1,7 +1,5 @@
 # basic_data_unit
-Basic data units and conversions such as config.cfg and.json conversions
-
-
+基础数据单元库构建。当前所实现的部分如下：
 
 ##### **模块功能**
 
@@ -74,4 +72,6 @@ Basic data units and conversions such as config.cfg and.json conversions
 	************************************************************************/
 	static bool JsonFileToLibconfigFile(const std::string& jsonpath, const std::string& cfgpath);
 
+##### 平台支持
 
+​		目前仅支持Window平台，Linux平台下尚未编译第三方库，但如果需要可自行编译依赖库放入3rdparty并创建相应的路径，然后在项目中引入路径，并且自行实现CMakeList.txt。
