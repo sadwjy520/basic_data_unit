@@ -3,11 +3,11 @@ Basic data units and conversions such as config.cfg and.json conversions
 
 
 
-- **模块功能**
+##### **模块功能**
 
-  基于C/C++语言使用开源库 **libconfig** 和 **rapidjson** 的二次开发，实现 .json 数据格式与 .cfg 数据格式的相互转换。
+​		基于C/C++语言使用开源库 **libconfig** 和 **rapidjson** 的二次开发，实现 .json 数据格式与 .cfg 数据格式的相互转换。
 
-- **模块接口**
+**模块接口**
 
 	/************************************************************************
 	* 函数名称：LibconfigToJson
@@ -73,3 +73,5 @@ Basic data units and conversions such as config.cfg and.json conversions
 	* 其他说明：公共函数
 	************************************************************************/
 	static bool JsonFileToLibconfigFile(const std::string& jsonpath, const std::string& cfgpath);
+
+
